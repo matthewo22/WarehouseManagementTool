@@ -50,8 +50,10 @@ to arrive. Meanwhile he will continue working on other tasks and will come back 
 Fill in Scenario
 	
 	Scenario 3.1:
-        Tom(Chief Technician) notifies Jimmy(Mechanical Engineer) about a failed inspection on an airplane at his airline's runway. Jimmy has a list of parts that need to ordered in order for the plane to pass inspection. Jimmy would place the order through the application for the warehouse manager to recieve. Jimmy will then check the application for an estimate on the 
-        order for the part. Tom will recieve a notification on the order for the repair and will be given instructions for the part's installation. Once Tom recieves the part he will update the 
+        Tom(Chief Technician) notifies Jimmy(Mechanical Engineer) about a failed inspection on an airplane at his airline's runway. Jimmy has a list
+        of parts that need to ordered in order for the plane to pass inspection. Jimmy would place the order through the application for the warehouse
+        manager to recieve. Jimmy will then check the application for an estimate on the order for the part. Tom will recieve a notification on the
+        order for the repair and will be given instructions for the part's installation. Once Tom recieves the part he will update the 
         status for the order. Once the part is replaced he will confirm the passing inspection for the plane. 
 
 	Scenario 3.2:
