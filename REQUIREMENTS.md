@@ -38,22 +38,31 @@ the part and be able to show their co-workers exactly where the part is located 
 
 	Scenario 2.2:
         Create Scenarios Here
-
 ```
 ```ghkerin
 User Story #3
 
+Chief Technician
+Overlooking onsite requests and is in charge of replacing the part, but is trying to figure out how to allocate time 
+most efficiently. As he is waiting for the part and can load the app to determine how much longer it will take the part
+to arrive. Meanwhile he will continue working on other tasks and will come back to the task when the part is available. 
+
 Fill in Scenario
 	
 	Scenario 3.1:
-        Create Scenarios Here
+        Tom(Chief Technician) notifies Jimmy(Mechanical Engineer) about a failed inspection on an airplane at his airline's runway. Jimmy has a list of parts that need to ordered in order for the plane to pass inspection. Jimmy would place the order through the application for the warehouse manager to recieve. Jimmy will then check the application for an estimate on the 
+        order for the part. Tom will recieve a notification on the order for the repair and will be given instructions for the part's installation. Once Tom recieves the part he will update the 
+        status for the order. Once the part is replaced he will confirm the passing inspection for the plane. 
 
 	Scenario 3.2:
         Create Scenarios Here
-
 ```
 ```ghkerin
 User Story #4
+Pilot
+Pilot’s plane is broken, waiting for the fixed part to arrive so they can fix it and get home. In order to get to his 
+next destination the pilot must wait until the task/repair will be done. He can look at the app in order to view the
+status of the part/task. 
 
 Fill in Scenario
 
@@ -63,12 +72,15 @@ Fill in Scenario
 
 	Scenario 4.2:
         Create Scenarios Here
-
 ```
 ```ghkerin
 User Story #5
 
-Fill in Scenario
+WareHouse Manager
+As an employee of the airline company who is in the parts warehouse. He constantly is watching the app/website in order 
+to view incoming order. He must confirm the order on the application and then needs to create an order physically 
+which will then be packaged and sent out to the respective location along with updating the status. He is also in 
+charge of the warehouse inventory.
 
 	
 	Scenario 5.1:
@@ -76,6 +88,19 @@ Fill in Scenario
 
 	Scenario 2.2:
         Create Scenarios Here
+```
+```ghkerin
+User Story #6
 
+Transporter
+As an employee of the airline company who is in charge of recieving the package and updating the status of the package throughout
+the route. When they arrive to the destination they must handoff the package to Chief Technical Operator and confirm 
+the order. They must also be updated on packages they may need to return to the warehouse. 
 
+	
+	Scenario 5.1:
+        Create Scenarios Here
+
+	Scenario 2.2:
+        Create Scenarios Here
 ```
