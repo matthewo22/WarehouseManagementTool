@@ -168,3 +168,18 @@ User Story #2
 As a customer, I would like to know what current sales there are going on, and discounts are available, and what items are recommended to purchase with the current items I want.
 Scenario: James is a customer. James is shopping for an aircraft wing. The program, using machine learning, recognizes that aircraft wings are frequently purchased with propellers. The program will suggest to James to also add propellers to his cart. The program will also suggest certain discounts and bundles related to what is in James’ cart.
 ```
+
+```ghkerin
+by Ryan Cavanagh
+User Story #1: As a warehouse owner I want to know when to purchase products and the amount of products to purchase to ensure my customers do not need to wait for orders. This would also allow me to optimize warehouse space by only having inventory of items that are currently being sold.
+
+Scenario:
+
+Harriana (warehouse owner) does not want to waste warehouse space on products that are seasonal. For example, aircraft Halloween decorations are only sold a couple of months before Halloween. Harriana does not want to purchase too many decorations that she will not be able to sell. The system should recommend the amount of products to buy depending on time of year and based on the sales history of the products. This would ensure that Harriana only has the needed amount of product and does not waste space or discard products. 
+
+User Story #2: As a client, I would like to be able to see similar products that are often viewed and bought together to make sure I don't forget a needed component.
+
+Scenario:
+
+Jimbo (A client) found out that his company needs to order some new parts for his aircraft. He finds each of the needed components but forgot to order a bolt that is needed to attach them. The system should recommend the right bolt that is frequently purchased with these parts.
+```
