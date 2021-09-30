@@ -106,3 +106,15 @@ the order. They must also be updated on packages they may need to return to the 
 	Scenario 2.2:
         Create Scenarios Here
 ```
+```ghkerin
+Linda
+User Story #1: 
+
+As a sales agent, I want to be able to search for airline parts. and be given exact/relevant parts related to my search.
+
+Scenario: Veronica (sales agent) gets a call from Matt (client) who needs AN3 BOLTS (10-32) for his airline. Veronica goes on the app to query it. The search engine should display a match when it's that exact, and display similar results when it's not.
+
+User Story #2: As a warehouse employee, I want to be able to update the inventory count of a product when I remove it to prepare it for shipment.
+
+Scenario: Nate (warehouse employee) receives an order invoice for 50 aircraft wheels and goes to the location to prepare and package it. Before he put's in the packing sticker, he goes on the app to update -50 on the count of those wheels.
+```
