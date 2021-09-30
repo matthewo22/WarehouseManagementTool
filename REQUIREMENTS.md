@@ -38,7 +38,7 @@ User Story #3:
 A warehouse worker wants to lose/misplace a minimum amount of items for efficiency and to have an accurate list of items available.
 
 Scenario 3.1:
-	Timmy needs parts A in order to make a repair, but there is only one left. So there might be a possibility that there is none left as that part could have been lost or misplaced. But items have been recently tagged so we know when an item leaves a general area and enters a new are, or when an item leaves the warehouse, so it is safe to say that item A is in fact where it' supposed to be.
+	Timmy needs parts A in order to make a repair, but there is only one left. So there might be a possibility that there is none left as that part could have been lost or misplaced. But items have been recently tagged so we know when an item leaves a general area and enters a new are, or when an item leaves the warehouse, so it is safe to say that item A is in fact where it is supposed to be.
 ```
 ```ghkerin
 User Story #4:
@@ -54,7 +54,7 @@ Scenario 4.2:
 ```ghkerin
 User Story #5
 Aerospace Parts Manufacturer:
-As a third party distributor of parts, you want toy ensure your clients (Boeing, Raytheon,etc) have top of the line none faulty parts. You need to be able to communicate to these companies if you have a piece of equipment needed and if they were to order by when it will arrive. They could also see statistics of the parts such as where it was produced, when it was made, and in what country it was made.
+As a third party distributor of parts, you want to ensure your clients (Boeing, Raytheon,etc) have top of the line none faulty parts. You need to be able to communicate to these companies if you have a piece of equipment needed and if they were to order by when it will arrive. They could also see statistics of the parts such as where it was produced, when it was made, and in what country it was made.
 
     Scenario 5.1:
     You get a call from Boeing saying they need a certain wing part. You check your database to see if the part is there and sure enough you have one. You communicate to your client that their order has been placed and will arrive soon. You then place your order into the management tool and now both you and your client know exactly where the part is and an estimate into when it will arrive. Also you client can see the past history of this part.
@@ -64,4 +64,18 @@ As a third party distributor of parts, you want toy ensure your clients (Boeing,
 
     Scenario 5.3:
     You are sitting in your office, and you get a notification from the application that you wing part 8791-AAA is about to reach the age of 5 years. After 5 years parts tend to have a higher chance of failing. You then tell your workers that they need to produce a new wing part 8971-AAA. This helps ensure that your clients will always get the best quality parts.
+```
+```ghkerin
+User Story: #6
+
+A newly built amazon fulfillment center has been built, and since it is in a heavily populated city they must quickly access their specific item out of thousands. 
+
+Scenario 6.1:
+A new intern, Michael, is tasked with retrieving a punching bag. Upon doing a digital search of the inventory it appears that there is only one in the entire warehouse. When Michael goes to the bag's supposed destination - it is not there. And since Michael is an intern - he freaks out. Michael needs a tool to precisely tell him where the punching bag is within the gigantic warehouse. This could be an accelerometer used with a reference point to determine its exact location within the warehouse. The result of such would be a greater time of location and access of the items, alongside confidence of never losing an item in the warehouse.
+
+Scenario 6.2:
+As the warehouse manager, you receive a phone call from the company that handles the distribution of the Amazon items. They claim that some items were never given to them. However: you distinctly remember seeing those packages be handed off to the delivery men. You need a tool that can reliably tell you the status of where an item is within its lifecycle: whether or not it is still within the warehouse, reached a distribution center, or whether or not it has been successfully delivered.  This allows for refutation of false-claims and allows your warehouse to remain reputable. 
+
+Scenario 6.3:
+Its Christmas time and the Amazon customers of your city had a field day and bought all that they could. Upon reaching the fulfillment center - things are hectic as there seems to be a lack of space, and everyone is in disarray. As a manager - you need a tool to optimize the organization of your fulfilment center for busy days like this while considering ease of access for distribution. This helps ensure that the workflow of the fulfilment center has the bandwidth to prevent delays due to mismanagement and disorganization.
 ```
