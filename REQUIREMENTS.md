@@ -106,3 +106,55 @@ the order. They must also be updated on packages they may need to return to the 
 	Scenario 2.2:
         Create Scenarios Here
 ```
+```ghkerin
+by GIOVANNI SCARFONE
+
+Recommender
+User Story (Plane Mechanic): 
+As a Plane Mechanic
+
+I want to know which parts are usually requested together
+
+So that I can quickly lessen the amount of time the airplane is not functional
+
+Scenario (Plane Mechanic):
+An aircraft is not functional and in need of diagnosis and repair.  The mechanic opens the app and enters the symptoms into the interface.  The application provides possible diagnosis.  After the mechanic narrows down the possible solutions, the application provides a list of parts directly involved in the repair and also provides a list of suggested parts that were bought together that may indirectly be affected.
+
+-----------------------------------------------------------------------------------------------------
+
+User Story (Sales Manager)
+As a Sales Manager
+
+I want to suggest other parts to upsell the purchaser
+
+So that I can increase revenue
+
+Scenario (Sales Manager)
+A customer chooses parts from our application.  While they are choosing parts, they are presented with a list of other parts that were purchases in conjunction along with a percentage of the amount of people who purchased the item after being presented with it.  This provides the purchaser with greater confidence that it may be wise to purchase these additional items.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Forecaster
+User Story (Plane Mechanic): 
+As a Plane Mechanic
+
+I want to which parts will need to be serviced
+
+So that I can minimize the time a plan is non-functional
+
+Scenario (Plane Mechanic):
+An aircraft has just concluded a flight.  The mechanic enter in the Serial Number (Unique Identified) of the plane into the application.  The application then provides a list of parts and when they should be checked for viability. 
+
+-----------------------------------------------------------------------------------------------------
+
+User Story (Sales Manager)
+As a Sales Manager
+
+I want to know which parts I should be ordering soon
+
+So that I don't run out of the parts
+
+Scenario (Sales Manager)
+The application provides me feedback of when I should order a part and how many I should order given the frequency of the product being ordered via email or other communication.
+
+```
