@@ -13,96 +13,55 @@ quickly find what they need while we pull all the correct data when asked.
 ```
 
 ```ghkerin
-User Story #1
+User Story #1:
 
-Mechanical Engineer
-A mechanical engineer working on the plane of the company may realize that a part needs to be replaced. They would 
-simply need to grab a device and load up our application. Once they type in the information for the specific part 
-they need they can find out exactly how long it will take for the replacement part to arrive.
-	
-	Scenario 1.1:
-        Create Scenarios Here
+As a warehouse owner / seller, I want my deals to be tracked so I can have an accurate history of my transactions. 
+
+Scenario 1.1:
+	Jerry (warehouse owner) buys an airline part from Company A. Jerry now wants to see this airline part to company B. Jerry wants to be able to see the entire history of ownership, price, and other information about this airline part. Once a deal is made and a smart contract is agreed upon by the parties, the transaction should be added to the ledgers of the parties involved.  Now if Jerry wants to see all the transaction history of an airline part, the transaction log of hyperledger fabric should have this information.
+
 ```
 
 ```ghkerin
-User Story #2
+User Story #2:
 
-Aerospace Engineering Manager
-An aerospace engineering manager at this company could be trying to explain to their group the part that is 
-cracked or needs replacing in the plane but none of the group members could be understanding how vital it is
-or where it is on the plane. The manager would simply need to load up our app on a nearby device and type in 
-the part and be able to show their co-workers exactly where the part is located on the plane.
-	
-	Scenario 2.1:
-        Create Scenarios Here
+As a warehouse owner / seller, I want a contract that details the agreements of the deal.
 
-	Scenario 2.2:
-        Create Scenarios Here
+Scenario 2.1:
+	Jerry (warehouse owner) is about to sell an airline part to Company B. Jerry will exchange the airline part for some amount of money. A smart contract will be created that will include the details of the transaction such as what is exchanged and once that is agreed upon it will be added to the ledger of parties involved.
+
+```
+
+```ghkerin
+User Story #3:
+
+A warehouse worker wants to lose/misplace a minimum amount of items for efficiency and to have an accurate list of items available.
+
+Scenario 3.1:
+	Timmy needs parts A in order to make a repair, but there is only one left. So there might be a possibility that there is none left as that part could have been lost or misplaced. But items have been recently tagged so we know when an item leaves a general area and enters a new are, or when an item leaves the warehouse, so it is safe to say that item A is in fact where it' supposed to be.
 ```
 ```ghkerin
-User Story #3
+User Story #4:
 
-Chief Technician
-Overlooking onsite requests and is in charge of replacing the part, but is trying to figure out how to allocate time 
-most efficiently. As he is waiting for the part and can load the app to determine how much longer it will take the part
-to arrive. Meanwhile he will continue working on other tasks and will come back to the task when the part is available. 
+A warehouse worker gets a new shipment with several pallets, and they want to be efficient in putting everything away and getting parts that were ordered specifically for repairs that are on hold.
 
-Fill in Scenario
-	
-	Scenario 3.1:
-        Tom(Chief Technician) notifies Jimmy(Mechanical Engineer) about a failed inspection on an airplane at his airline's runway. Jimmy has a list
-        of parts that need to ordered in order for the plane to pass inspection. Jimmy would place the order through the application for the warehouse
-        manager to recieve. Jimmy will then check the application for an estimate on the order for the part. Tom will recieve a notification on the
-        order for the repair and will be given instructions for the part's installation. Once Tom recieves the part he will update the 
-        status for the order. Once the part is replaced he will confirm the passing inspection for the plane. 
+Scenario 4.1:
+	Billy has a lot of tasks to complete, but they just received shipment and they first need to figure what goes where and what's inside each pallet. But each pallet now has a barcode on top with its own data with what exactly is inside each pallet. This greatly reduces the time in putting stuff away so Billy can go back to his regular tasks.
 
-	Scenario 3.2:
-        Create Scenarios Here
-```
-```ghkerin
-User Story #4
-Pilot
-Pilot’s plane is broken, waiting for the fixed part to arrive so they can fix it and get home. In order to get to his 
-next destination the pilot must wait until the task/repair will be done. He can look at the app in order to view the
-status of the part/task. 
-
-Fill in Scenario
-
-	
-	Scenario 4.1:
-        Create Scenarios Here
-
-	Scenario 4.2:
-        Create Scenarios Here
+Scenario 4.2:
+	Mandy ordered some special parts because the warehouse usually doesn't usually carry that given part, but the repair needs to be done ASAP so Mandy does not have time to be looking inside every single pallet for the part that she ordered. Luckily for Mandy, she can scan the top of the pallet and see the contents of each pallet, which is going to save her a lot of time and not disorganizing every single pallet in the process.
 ```
 ```ghkerin
 User Story #5
+Aerospace Parts Manufacturer:
+As a third party distributor of parts, you want toy ensure your clients (Boeing, Raytheon,etc) have top of the line none faulty parts. You need to be able to communicate to these companies if you have a piece of equipment needed and if they were to order by when it will arrive. They could also see statistics of the parts such as where it was produced, when it was made, and in what country it was made.
 
-WareHouse Manager
-As an employee of the airline company who is in the parts warehouse. He constantly is watching the app/website in order 
-to view incoming order. He must confirm the order on the application and then needs to create an order physically 
-which will then be packaged and sent out to the respective location along with updating the status. He is also in 
-charge of the warehouse inventory.
+    Scenario 5.1:
+    You get a call from Boeing saying they need a certain wing part. You check your database to see if the part is there and sure enough you have one. You communicate to your client that their order has been placed and will arrive soon. You then place your order into the management tool and now both you and your client know exactly where the part is and an estimate into when it will arrive. Also you client can see the past history of this part.
 
-	
-	Scenario 5.1:
-        Create Scenarios Here
+    Scenario 5.2:
+    Your client orders a part, but it somehow gets lost in transit. Their much-needed box of A-31B screws goes missing and they need a new order asap. You get notified right away through the application that the order will be delayed so now you can contact your client to good communication between and to ensure their order arrives on time.
 
-	Scenario 2.2:
-        Create Scenarios Here
-```
-```ghkerin
-User Story #6
-
-Transporter
-As an employee of the airline company who is in charge of recieving the package and updating the status of the package throughout
-the route. When they arrive to the destination they must handoff the package to Chief Technical Operator and confirm 
-the order. They must also be updated on packages they may need to return to the warehouse. 
-
-	
-	Scenario 5.1:
-        Create Scenarios Here
-
-	Scenario 2.2:
-        Create Scenarios Here
+    Scenario 5.3:
+    You are sitting in your office, and you get a notification from the application that you wing part 8791-AAA is about to reach the age of 5 years. After 5 years parts tend to have a higher chance of failing. You then tell your workers that they need to produce a new wing part 8971-AAA. This helps ensure that your clients will always get the best quality parts.
 ```
