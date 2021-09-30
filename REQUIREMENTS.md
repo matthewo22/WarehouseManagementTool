@@ -106,3 +106,14 @@ the order. They must also be updated on packages they may need to return to the 
 	Scenario 2.2:
         Create Scenarios Here
 ```
+```ghkerin
+Kyle Sung:
+
+User Story 1: As a product manager if a part were to fail and injury would come to the passengers then an investigation will be held. 
+Scenario 1: The application will be able to tell where the part came from, how long it was in storage, what model number it was, what batch it was produced in, etc.
+
+
+User Story 2: As a warehouse manager if parts are reaching the end of their lifecycle then I want to know how long before they need to be replaced and how many need to be replaced.
+
+Scenario 1: Elastic search request to bring up all product sorted by end of life cycle
+```
