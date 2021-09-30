@@ -158,3 +158,13 @@ Scenario (Sales Manager)
 The application provides me feedback of when I should order a part and how many I should order given the frequency of the product being ordered via email or other communication.
 
 ```
+```ghkerin
+by Anthony Reyes
+User Story #1
+As a warehouse owner, I would like to know when certain items are popular so they can generate lots of sales and make sure they are in stock.
+Scenario: John is a sales agent. John looks at the program to see which items will be popular in the coming months. This prediction is made from machine learning in the program. John will make sure that there is enough stock to compensate for the popularity of the item.
+
+User Story #2
+As a customer, I would like to know what current sales there are going on, and discounts are available, and what items are recommended to purchase with the current items I want.
+Scenario: James is a customer. James is shopping for an aircraft wing. The program, using machine learning, recognizes that aircraft wings are frequently purchased with propellers. The program will suggest to James to also add propellers to his cart. The program will also suggest certain discounts and bundles related to what is in James’ cart.
+```
