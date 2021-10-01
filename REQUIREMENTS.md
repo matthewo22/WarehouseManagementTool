@@ -122,10 +122,16 @@ Scenario: Nate (warehouse employee) receives an order invoice for 50 aircraft wh
 John
 User Story 1: As a user, I want to be able to locate the part I need for assembling a plane or repairing a plane.
 
-Scanerio 1: The customer is in need of a specific wing part for a plane. The user of the system should be able to search for that exact part number if they have it or sort by manufacturer of a particular wing part. The search should display parts with the most relevant search inputted.
+Scanerio 1: The customer is in need of a specific wing part for a plane. The user of the system should be 
+able to search for that exact part number if they have it or sort by manufacturer of a particular 
+wing part. The search should display parts with the most relevant search inputted.
 
-User Story 2: As a seller, I want to be able to list parts for sale on the program and have it organized in a way that makes logical sense.
+User Story 2: As a seller, I want to be able to list parts for sale on the program and have it organized 
+in a way that makes logical sense.
 
-Scenario 2: The manufacturer or seller of aviation parts is looking to provide more ways for a customer to purchase there parts. The seller would want a system that can properly display information regarding the part and an easy user interface to begin selling. Using the system should be straightforward for the seller and give sellers ways to categorize the parts they are selling as well as input key information regarding that part.
+Scenario 2: The manufacturer or seller of aviation parts is looking to provide more ways for a 
+customer to purchase there parts. The seller would want a system that can properly display 
+information regarding the part and an easy user interface to begin selling. Using the system 
+should be straightforward for the seller and give sellers ways to categorize the parts they are selling 
+as well as input key information regarding that part.
 ```
-```ghkerin
