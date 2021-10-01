@@ -117,3 +117,14 @@ User Story 2: As a warehouse manager if parts are reaching the end of their life
 
 Scenario 1: Elastic search request to bring up all product sorted by end of life cycle
 ```
+```gherkin
+Min Kyaw:
+
+User Story 1: As a warehouse manager, I should be able to know the name and location of each item in the warehouse and be able to query anything necessary.
+
+Scenario: A customer wants to place an order or have ordered already, and the customer wants the item as soon as possible. The warehouse manager should be able to query the item name and location in the warehouse, and the results should come back in a timely manner.
+
+User Story 2: As a warehouse manager, I should know when where the items are shipped to and be able to query the data necessary.
+
+Scenario: A customer's order went through and is happy to have ordered items. The warehouse manager should have access to the item purchased and amount, when it was purchased, and the address of the customer. The data is abled to be queried efficiently.
+```
