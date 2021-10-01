@@ -70,10 +70,9 @@ Fill in Scenario
 
 	
 	Scenario 4.1:
-        Create Scenarios Here
-
-	Scenario 4.2:
-        Create Scenarios Here
+        Micheal(Pilot) has just landed his plane. Following a routine inspection, it its discovered that something in the plane needs to be replaced and
+	the plane is to be grounded until the parts is replaced and the plane passes an inspection. Robert checks his application to track the progress of
+	the repair and the estimated time it will take for him to take off again.
 ```
 ```ghkerin
 User Story #5
@@ -135,3 +134,15 @@ information regarding the part and an easy user interface to begin selling. Usin
 should be straightforward for the seller and give sellers ways to categorize the parts they are selling 
 as well as input key information regarding that part.
 ```
+```ghkerin
+Matt
+User Story #1: 
+
+District Manager
+As a manager for all the warehouses in the district, I want to make sure that all incoming/outbound parts are being accounted for and that warehouses are communicating with
+each other to balance inventory.
+
+Scenario 1: Owen(District Manager) is doing a routine inspection of all the warehouses within his district. He notices Warehouse #1 has a surplus of plane part that is
+short in Warehouse #2. He communicates with the warehouse managers at both facilitie and has inventory moved from Warehouse #1 to Warehouse #2. Allowing for Warehosue #2 to
+have more inventory to server their respective areas.
+
